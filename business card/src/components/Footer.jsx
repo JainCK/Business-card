@@ -1,10 +1,12 @@
+import { SocialIcon } from 'react-social-icons';
+
 export default function Footer() {
     return (
         <footer>
-            <i className="fab fa-twitter fa-lg"></i>
-            <i className="fab fa-linkedin fa-lg"></i>
-            <i className="fab fa-codepen fa-lg"></i>
-            <i className="fab fa-github fa-lg"></i>
+            <SocialIcon url="https://twitter.com/jain_kuriakose" network="twitter" fgColor="#fff" bgColor="#2b2b2b" style={{ margin: '0 10px' }} />
+            <SocialIcon url="https://www.linkedin.com/in/jain-c-kuriakose-0a5022222" network="linkedin" fgColor="#fff" bgColor="#2b2b2b" style={{ margin: '0 10px' }} />
+            <SocialIcon url="https://codepen.io/jain08" network="codepen" fgColor="#fff" bgColor="#2b2b2b" style={{ margin: '0 10px' }} />
+            <SocialIcon url="https://github.com/zippyzag88" network="github" fgColor="#fff" bgColor="#2b2b2b" style={{ margin: '0 10px' }} />
         </footer>
     );
 }
